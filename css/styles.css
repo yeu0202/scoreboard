@@ -35,7 +35,7 @@ html, body{
     height:100%;
 }
 
-.settings-button{
+.corner-button{
     position: absolute;
     width: 10vh;
     height: 10vh;
