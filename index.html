@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -16,19 +18,31 @@
         <div class="column" id="right-column">
             <div class="center-text score-number" id="right-score">0340</div>
         </div>
-        <div class="corner-buttons score-minus-buttons" id="left-minus"><div class="center-text">-1</div></div>
-        <div class="corner-buttons score-minus-buttons" id="right-minus"><div class="center-text">-1</div></div>
+        <div class="button corner-buttons score-minus-buttons" id="left-minus" onclick="leftMinusPressed()">
+            <div class="center-text">-1</div>
+        </div>
+        <div class="button corner-buttons score-minus-buttons" id="right-minus" onclick="rightMinusPressed()">
+            <div class="center-text">-1</div>
+        </div>
 
-        <div class="corner-buttons top-left-corner-button">
-            <svg class="icon" id="settings-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="m19.4 44-1-6.3q-.95-.35-2-.95t-1.85-1.25l-5.9 2.7L4 30l5.4-3.95q-.1-.45-.125-1.025Q9.25 24.45 9.25 24q0-.45.025-1.025T9.4 21.95L4 18l4.65-8.2 5.9 2.7q.8-.65 1.85-1.25t2-.9l1-6.35h9.2l1 6.3q.95.35 2.025.925Q32.7 11.8 33.45 12.5l5.9-2.7L44 18l-5.4 3.85q.1.5.125 1.075.025.575.025 1.075t-.025 1.05q-.025.55-.125 1.05L44 30l-4.65 8.2-5.9-2.7q-.8.65-1.825 1.275-1.025.625-2.025.925l-1 6.3ZM24 30.5q2.7 0 4.6-1.9 1.9-1.9 1.9-4.6 0-2.7-1.9-4.6-1.9-1.9-4.6-1.9-2.7 0-4.6 1.9-1.9 1.9-1.9 4.6 0 2.7 1.9 4.6 1.9 1.9 4.6 1.9Z"/></svg>
+        <div class="button corner-buttons top-left-corner-button">
+            <svg class="icon" id="settings-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                <path
+                    d="m19.4 44-1-6.3q-.95-.35-2-.95t-1.85-1.25l-5.9 2.7L4 30l5.4-3.95q-.1-.45-.125-1.025Q9.25 24.45 9.25 24q0-.45.025-1.025T9.4 21.95L4 18l4.65-8.2 5.9 2.7q.8-.65 1.85-1.25t2-.9l1-6.35h9.2l1 6.3q.95.35 2.025.925Q32.7 11.8 33.45 12.5l5.9-2.7L44 18l-5.4 3.85q.1.5.125 1.075.025.575.025 1.075t-.025 1.05q-.025.55-.125 1.05L44 30l-4.65 8.2-5.9-2.7q-.8.65-1.825 1.275-1.025.625-2.025.925l-1 6.3ZM24 30.5q2.7 0 4.6-1.9 1.9-1.9 1.9-4.6 0-2.7-1.9-4.6-1.9-1.9-4.6-1.9-2.7 0-4.6 1.9-1.9 1.9-1.9 4.6 0 2.7 1.9 4.6 1.9 1.9 4.6 1.9Z" />
+            </svg>
         </div>
 
         <div class="settings-panel">
-            <div class="corner-buttons top-left-corner-button">
-                <svg class="icon" id="settings-cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z"/></svg>
+            <div class="button corner-buttons top-left-corner-button">
+                <svg class="icon" id="settings-cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                    <path
+                        d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
+                </svg>
             </div>
         </div>
+
     </div>
+
 </body>
 
 </html>

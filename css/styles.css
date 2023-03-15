@@ -1,6 +1,7 @@
-html, body{
-    margin:0px; 
-    height:100%;
+html,
+body {
+    margin: 0px;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -15,8 +16,8 @@ html, body{
     height: 100%;
 }
 
-.row{
-    height:100%;
+.row {
+    height: 100%;
 }
 
 /* Clear floats after the columns */
@@ -26,14 +27,15 @@ html, body{
     clear: both;
 }
 
-#left-column{
-    background-color:#f07070;
-}
-#right-column{
-    background-color:#7070F0;
+#left-column {
+    background-color: #f07070;
 }
 
-.center-text{
+#right-column {
+    background-color: #7070F0;
+}
+
+.center-text {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -43,13 +45,13 @@ html, body{
     text-align: center;
 }
 
-.score-number{
+.score-number {
     font-size: 20vw;
     color: #FFFFFF;
 }
 
 
-.score-minus-buttons{
+.score-minus-buttons {
     position: absolute;
     bottom: 0%;
     width: 10vw;
@@ -58,7 +60,8 @@ html, body{
     color: #FFFFFF;
     font-size: 8vw;
 }
-.score-minus-buttons div{
+
+.score-minus-buttons div {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -66,21 +69,23 @@ html, body{
     margin-right: auto;
     width: 100%;
 }
-#left-minus{
+
+#left-minus {
     left: 0%;
     border-top-right-radius: 30%;
 }
-#right-minus{
+
+#right-minus {
     right: 0%;
     border-top-left-radius: 30%;
 }
 
-.corner-buttons{
+.corner-buttons {
     position: absolute;
     background-color: #BBBBBB;
 }
 
-.top-left-corner-button{
+.top-left-corner-button {
     width: 10vw;
     height: 10vw;
     right: 0%;
@@ -94,11 +99,11 @@ html, body{
     margin: auto;
 }
 
-#settings-icon{
+#settings-icon {
     fill: white;
 }
 
-.settings-panel{
+.settings-panel {
     visibility: hidden;
     position: absolute;
     width: 100%;
@@ -106,7 +111,19 @@ html, body{
     background-color: #999999DD;
 }
 
-#settings-cross{
+#settings-cross {
     fill: white;
 }
 
+
+.button:hover {
+    background-color: #B0B0B0;
+}
+
+.button:active {
+    background-color: #A0A0A0;
+}
+
+.button {
+    border-width: 0px;
+}
