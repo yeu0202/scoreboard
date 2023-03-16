@@ -1,3 +1,8 @@
+window.onload = function() {
+    var x = document.getElementById("settings-panel");
+    x.style.display = "none";
+  };
+
 var leftScore = 0
 var rightScore = 0
 
@@ -29,10 +34,11 @@ function updateScoreDisplay(){
   document.getElementById("right-score").innerHTML = rightScore;
 }
 
-function openSettingsPanel(){
-
-}
-
-function closeSettingsPanel(){
-
+function toggleSettingsPanel(){
+    var x = document.getElementById("settings-panel");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
 }

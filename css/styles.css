@@ -115,11 +115,13 @@ body {
 }
 
 .settings-panel {
-    visibility: hidden;
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: #999999DD;
+}
+#settings-panel{
+    display: none;
 }
 
 #settings-cross {
