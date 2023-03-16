@@ -80,10 +80,16 @@ body {
     border-top-left-radius: 30%;
 }
 
-.corner-buttons {
-    position: absolute;
-    background-color: #BBBBBB;
+#reset-button{
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+    bottom: 0%;
+    height: 10vw;
+    width: 20vw;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
 
 .top-left-corner-button {
     width: 10vw;
@@ -125,5 +131,6 @@ body {
 }
 
 .button {
-    border-width: 0px;
+    position: absolute;
+    background-color: #BBBBBB;
 }
